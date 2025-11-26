@@ -1,0 +1,4 @@
+/*
+Implement a funtion called countUniqueVvlues which accepts a sorted array, and counts
+the unique values in the array. there can be negative numbers in the array, but it will always be soreted
+*/

@@ -49,6 +49,8 @@ function validAnagram1(str1, str2) {
     lookUp[char] ? (lookUp[char] += 1) : (lookUp[char] = 1);
   }
 
+  console.log(lookUp);
+
   for (let char of str2) {
     if (!lookUp[char]) {
       return false;
@@ -59,4 +61,4 @@ function validAnagram1(str1, str2) {
   return true;
 }
 
-console.log(validAnagram1(" ", " "));
+console.log(validAnagram1("anagram", "nagaram"));
