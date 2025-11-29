@@ -55,3 +55,8 @@ Space complexity (extra space):
 -Aside from the args array (which just holds the inputs) and a few scalar variables (i, j), no extra data structures are created.
 -Conceptually this is O(1)O(1) additional space; in practice the sort uses at most O(log⁡n)O(logn) stack/buffer space, which is still very small compared to nn.
 */
+
+// areThereDuplicates One Liner Solution
+function areThereDuplicates() {
+  return new Set(arguments).size !== arguments.length;
+}
